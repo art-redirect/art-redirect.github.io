@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #395de0;
+  background-color: rgb(228, 187, 237);
 }
 
 body {
@@ -107,4 +107,17 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Optional: Höhe auf 100% des Viewport einstellen */
+    padding:2vh;
+}
+
+.center img {
+    max-width: 30%; /* Maximale Breite des Bildes auf 50% setzen */
+    height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis zu erhalten */
 }
