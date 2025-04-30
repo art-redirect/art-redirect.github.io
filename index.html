@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style></style>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -9,78 +8,59 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <title>Menschick</title>
 
-    <title></title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
-    <!-- Custom styles for this template -->
-    <!-- <link href="cover.css" rel="stylesheet"> -->
-    <style>
-      body,
-      html {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(228, 187, 237);
-      }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
 
-  <body
-    width="100%"
-    class="text-center"
-    style="display: flex; flex-direction: column; align-items: center"
-  >
-    <img src="schleife.gif" />
-    <iframe
-      width="60%"
-      height="300"
-      scrolling="no"
-      frameborder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129790361&color=%2398a4ac&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    ></iframe>
-    <div
-      style="
-        font-size: 10px;
-        color: #cccccc;
-        line-break: anywhere;
-        word-break: normal;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-          Garuda, Verdana, Tahoma, sans-serif;
-        font-weight: 100;
-      "
-    >
-      <a
-        href="https://soundcloud.com/lorine-dorin"
-        title="L&#x27;Auryn"
-        target="_blank"
-        style="color: #cccccc; text-decoration: none"
-        >L&#x27;Auryn</a
-      >
-      ·
-      <a
-        href="https://soundcloud.com/lorine-dorin/rampue-zwitscherzwitscher"
-        title="Rampue-Zwitscherzwitscher"
-        target="_blank"
-        style="color: #cccccc; text-decoration: none"
-        >Rampue-Zwitscherzwitscher</a
-      >
-    </div>
+  <body class="h-screen w-screen m-0 flex items-center justify-center bg-purple-200 text-center flex-col space-y-10">
+    <img src="schleife.gif" alt="Schleife Animation" />
+ 
+      <audio controls style="width: 60%; opacity: .7;">
+
+      <a href="https://share.transistor.fm/s/0b397ae3" style="font-family: monospace; text-decoration: none; color: #fff;">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td>
+                <img width="47" height="47" src="https://marketing.transistor.fm/assets/email-embed-player/play.png" />
+              </td>
+              <td width="10px"></td>
+              <td>
+                <div>
+                  <img width="100%" src="https://marketing.transistor.fm/assets/email-embed-player/progress-bar.png" />
+                </div>
+                <table width="100%" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr height="7.5"></tr>
+                    <tr>
+                      <td width="100">
+                        <img height="19" width="100" src="https://marketing.transistor.fm/assets/email-embed-player/controls.png" />
+                      </td>
+                      <td align="right">
+                        <small style="color: #ffffff; opacity:0.7;)">00:00</small>
+                        <small style="color: #ffffff; opacity:0.2;)">|</small>
+                        <small style="color: #ffffff; opacity:0.7;)">01:12:00</small>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </a>
+        <source src="music.mp3"></source>
+      </audio>
+
+  
+
+    </td>
+    <td width="15"></td>
+  </tr>
+  <tr height="7.5"></tr>
+</table>
   </body>
 </html>
