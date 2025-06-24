@@ -14,49 +14,44 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <body class="h-screen w-screen m-0 flex items-center justify-center bg-purple-200 text-center flex-col space-y-10">
-    <img src="schleife.jpeg" alt="Schleife" class="w-[200px] shadow-xl/30" />
+  <body class="min-h-screen bg-purple-200 text-center flex items-center justify-center p-4">
+    <div class="max-w-3xl w-full flex flex-col items-center space-y-10">
+
+      <img src="schleife.jpeg" alt="Schleife" class="w-48 shadow-xl rounded-4xl" />
 
 
-    <!-- Title Above Audio -->
-    <h1 style="font-family: Courier" class="text-2xl font-bold text-purple-700">
-      Luisa Menschick & Luca Schwarz - „happy accidents“
-    </h1>
+      <h1 class="text-2xl font-bold text-purple-700 font-mono">
+        Luisa Menschick & Luca Schwarz – „happy accidents“
+      </h1>
 
-    <audio controls style="width: 60%; opacity: .7;">
-      <a href="https://share.transistor.fm/s/0b397ae3" style="font-family: monospace; text-decoration: none; color: #fff;">
-        <table cellspacing="0" cellpadding="0">
-          <tbody>
-            <tr>
-              <td>
-                <img width="47" height="47" src="https://marketing.transistor.fm/assets/email-embed-player/play.png" />
-              </td>
-              <td width="10px"></td>
-              <td>
-                <div>
-                  <img width="100%" src="https://marketing.transistor.fm/assets/email-embed-player/progress-bar.png" />
-                </div>
-                <table width="100%" cellspacing="0" cellpadding="0">
-                  <tbody>
-                    <tr height="7.5"></tr>
-                    <tr>
-                      <td width="100">
-                        <img height="19" width="100" src="https://marketing.transistor.fm/assets/email-embed-player/controls.png" />
-                      </td>
-                      <td align="right">
-                        <small style="color: #ffffff; opacity:0.7;">00:00</small>
-                        <small style="color: #ffffff; opacity:0.2;">|</small>
-                        <small style="color: #ffffff; opacity:0.7;">01:12:00</small>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </a>
-      <source src='Luisa Menschick & Luca Schwarz - „happy accidents“.mp3' />
-    </audio>
+      <audio controls class="w-full max-w-xl opacity-70">
+        <source src="Luisa Menschick & Luca Schwarz - „happy accidents“.mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <section class="text-left bg-white p-6 rounded-xl shadow-md font-mono text-purple-700 leading-relaxed space-y-4">
+        <p class="text-lg font-bold">Zum Stück „Happy Accidents“ von Luisa Menschick & Luca Schwarz</p>
+
+        <p>
+          In unserem gemeinsamen Werk „Happy Accidents“ setzen wir uns mit der Idee auseinander, dass das Unerwartete nicht bloß Störung, sondern schöpferischer Motor sein kann. Zentrales Werkzeug war für uns dabei die Arbeit mit sogenannten Bernoulli Gates – Wahrscheinlichkeitsverteilungen, die musikalische Entscheidungen nicht deterministisch, sondern durch kontrollierten Zufall beeinflussen.
+        </p>
+
+        <p>
+          Wir haben Klänge zunächst systematisch kategorisiert – etwa nach heller oder dunkler Filterung – und diesen Kategorien bestimmte Frequenzbereiche zugeordnet. Auf dieser Grundlage entwickelten wir ein modulares Klangsystem, das sich über verschiedene Pfade entfalten konnte. Die Auswahl dieser Pfade wurde dem Zufall überlassen – allerdings nicht willkürlich: Durch gezielte Gewichtungen innerhalb der Bernoulli-Struktur lenkten wir den Ausgangspunkt für viele klangliche Entwicklungen.
+        </p>
+
+        <p>
+          Auch rhythmisch haben wir das Prinzip der Happy Accidents konsequent umgesetzt. Klänge konnten entweder einmalig erscheinen oder sich in quantisierten Wiederholungen entfalten – etwa als Sechzehntel-, Achtel-, Viertel- oder triolische Figuren. Dabei legten wir nicht nur die möglichen Geschwindigkeiten und Wiederholungsanzahlen fest, sondern auch deren jeweilige Eintrittswahrscheinlichkeiten. So wurde beispielsweise eine schnelle Sechzehntel-Schleife mit sechs Wiederholungen bewusst seltener zugelassen als eine ruhigere Viertel-Schleife mit drei Wiederholungen.
+        </p>
+
+        <p>
+          Diese Form des gewichteten Zufalls erlaubte es uns, gezielt ästhetische Schwerpunkte zu setzen, ohne den Zufallscharakter zu verlieren. Wir lenkten den Zufall in Richtungen, die wir als musikalisch spannend empfanden – und sorgten so dafür, dass unsere Accidents nicht nur zufällig, sondern tatsächlich happy waren.
+        </p>
+
+        <p>
+          „Happy Accidents“ versteht sich somit als eine Komposition im Spannungsfeld von Struktur und Offenheit. Der Zufall ist nicht bloß erlaubt – er ist eingeladen, kuratiert und gefeiert.
+        </p>
+      </section>
+    </div>
   </body>
 </html>
